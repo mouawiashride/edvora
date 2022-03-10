@@ -1,0 +1,130 @@
+ .shoecard
+{
+    width: 1280px;
+    height: 198px;
+     display: flex;
+    background: #171717;
+    border-radius: 10px;
+    margin-left: 43px;
+    padding-right: 30px;
+}
+
+.shoecardimg
+{
+   margin: 22px 44px 28px 29px;
+    width: 296px;
+    height: 148px;
+ border-radius: 5px;
+background: url('/public/map.jpg' );
+}
+
+
+
+.raiddetail
+{
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+.Rideid
+{
+    width: 353px;
+    height: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CFCFCF;
+}
+
+.originstation
+{
+    width: 340px;
+    height: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CFCFCF;
+}
+.stationpath
+{
+  
+width: 475px;
+height: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #CFCFCF;
+}
+.date
+{
+  
+width: 406px;
+height: 22px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #CFCFCF;
+}
+.distance
+{
+
+width: 389.19px;
+height: 18px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #CFCFCF;
+}
+
+.optionaldetail
+{
+    display: flex;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.optionaldetail .cityname
+{
+/* City Name */
+width: 60px;
+height: 15px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
+
+.optionaldetail .statename
+{
+   
+width: 68px;
+height: 15px;
+left: 10px;
+top: 4px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+margin-left: 44px;
+}

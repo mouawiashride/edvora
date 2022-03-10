@@ -1,0 +1,158 @@
+.navcontainer
+{
+    display: flex;
+    height: 81px;
+    align-content: center;
+}
+
+.navcontainer a 
+{
+    margin-top:29px ;
+    margin-bottom: 30px;
+    font-size: 18px;
+color: #D0CBCB;
+font-style: normal;
+margin-left: 22px;
+margin-right: 22px;
+height: 22px;
+}
+.navcontainer .nearestridestitle
+{
+
+
+font-weight: bold;
+margin-left: 43px;
+width: 118px;
+height: 22px;
+}
+
+.upcomingridestitle
+{
+margin-left: 44px;
+width: 164px;
+height: 22px; 
+font-weight: 400;
+}
+.navcontainer .pastridestitle
+{
+    width: 114px;
+height: 22px;
+margin-right: 0px;
+font-weight: 400;
+}
+a.isactive
+{
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    font-weight: bold !important
+}
+
+.filtercontainer
+{
+    margin-left: 718px;
+    display: flex;
+ position: relative;   
+}
+.spancollection
+{
+    width: 18px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
+.spancollection > div
+{
+background-color: #ffffff;
+height: 1px;
+margin: 1px ;
+}
+.spancollection > div:nth-child(1)
+{
+    width: auto;
+   
+}
+
+.spancollection > div:nth-child(2)
+{
+    width: 50%;
+}
+.spancollection > div:nth-child(3)
+{
+    width: 25%;
+}
+
+.filtername
+{
+ margin-left: 8px;
+width: 39px;
+height: 19px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+margin-top: 33px;
+/* Gray 6 */
+color: #F2F2F2;
+
+}
+
+
+.filterplaceholder
+{
+
+
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+color: #A5A5A5;
+margin-bottom: 32px;
+position: relative;
+border-bottom: 1px solid #CBCBCB;
+padding-bottom:12px ;
+width: 158px;
+}
+
+.filterstatecity
+{
+    opacity: 0;
+  height: 0px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 228px;
+    overflow: hidden;
+right: 0px;
+position: absolute;
+background: #131313;
+border-radius: 15px;
+padding: 23px 30px;
+-moz-transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.filterstatecity select
+{
+width: 168.45px;
+height: 37.5px;
+background: #232323;
+border-radius: 4.68775px;
+color: white;
+padding: 8px 12.5px;
+
+
+}
+.filterstatecity .statefilter
+{
+    margin-bottom: 12.5px;
+}
+
+.filtercontainer:hover  .filterstatecity
+{
+   opacity: 1;
+    height: 190px;
+}
